@@ -1,7 +1,7 @@
 
 const CACHE_NAME = 'pwa-task-list-v1';
 const urlsToCache = [
-    '/',
+    '/Oscar-06.08/sw',
     '/Oscar-06.08/index.html',
     '/Oscar-06.08/style.css',
     '/Oscar-06.08/manifest.json',
@@ -26,4 +26,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
